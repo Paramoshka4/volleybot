@@ -26,8 +26,11 @@ for event in longpoll.listen():
             count = int(rm[12:])
             i = 0
             people = []
-            send_message(ed, "Набор на тренировку начался")
             send_message(lesha, "Набор на тренировку начался")
+            send_message(olya, "Набор на тренировку начался")
+            send_message(arina, "Набор на тренировку начался")
+            send_message(borya, "Набор на тренировку начался")
+            send_message(dasha, "Набор на тренировку начался")
         if rm == "список":
             itog1 = ""
             a1 = 0
