@@ -8,7 +8,7 @@ def send_message(sender, message):
 #last = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 people = []
 
-token = "6b1368a70a865a9f6307bfce834116c16aedad1ba47315f1a19d3cd4c363d51eac4519c81e6a90cb1f9a1"
+token = "b49fe436c66c7c43a5ab80d434ed386630ae74873648b85c8aa06c39298dae3e9876f2393e382ec9a2ef8"
 authorize = vk_api.VkApi(token=token)
 longpoll = VkLongPoll(authorize)
 
