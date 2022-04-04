@@ -19,6 +19,7 @@ for event in longpoll.listen():
         arina = 334157459
         borya = 181903019
         dasha = 254687528
+        vantus= 144915961
         received_message = event.text
         rm = received_message.lower()
         sender = event.user_id
@@ -26,6 +27,7 @@ for event in longpoll.listen():
             count = int(rm[12:])
             i = 0
             people = []
+            send_message(vantus, "Набор на тренировку начался")
             send_message(lesha, "Набор на тренировку начался")
             send_message(olya, "Набор на тренировку начался")
             send_message(arina, "Набор на тренировку начался")
